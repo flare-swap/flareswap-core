@@ -1,0 +1,44 @@
+{
+  "name": "flareswap-core",
+  "version": "1.0.1",
+  "dependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.9",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@typechain/ethers-v5": "^4.0.0",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "decimal.js": "^10.2.1",
+    "ethereum-waffle": "^3.0.2",
+    "ethers": "^5.0.8",
+    "hardhat": "^2.2.0",
+    "hardhat-typechain": "^0.3.5",
+    "mocha": "^6.2.2",
+    "mocha-chai-jest-snapshot": "^1.1.0",
+    "prettier": "^2.0.5",
+    "prettier-plugin-solidity": "^1.0.0-alpha.59",
+    "solhint": "^3.2.1",
+    "solhint-plugin-prettier": "^0.0.5",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^8.5.4",
+    "typechain": "^4.0.0",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coston:deploy": "npx hardhat run scripts/deploy.js --network coston",
+    "coston:verify": "npx hardhat run scripts/verify.js --network coston",
+    "coston2:deploy": "npx hardhat run scripts/deploy.js --network coston2",
+    "coston2:verify": "npx hardhat run scripts/verify.js --network coston2",
+    "songbird:deploy": "npx hardhat run scripts/deploy.js --network songbird",
+    "songbird:verify": "npx hardhat run scripts/verify.js --network songbird",
+    "flare:deploy": "npx hardhat run scripts/deploy.js --network flare",
+    "flare:verify": "npx hardhat run scripts/verify.js --network flare"
+  }
+}
