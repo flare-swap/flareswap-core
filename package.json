@@ -1,13 +1,16 @@
 {
-  "name": "flareswap-core",
-  "version": "1.0.2",
+  "name": "@flare-swap/core",
+  "version": "1.0.0",
   "description": "Core smart contracts of FlareSwap",
-  "keywords": ["flareswap", "core"],
+  "keywords": [
+    "flareswap",
+    "core"
+  ],
   "author": "FlareSwap",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/flare-swap/flareswap-core.git"
+    "url": "git+https://github.com/flare-swap/flareswap-core.git"
   },
   "homepage": "https://github.com/flare-swap/flareswap-core#readme",
   "dependencies": {
@@ -49,5 +52,9 @@
     "songbird:verify": "npx hardhat run scripts/verify.js --network songbird",
     "flare:deploy": "npx hardhat run scripts/deploy.js --network flare",
     "flare:verify": "npx hardhat run scripts/verify.js --network flare"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/flare-swap/flareswap-core/issues"
+  },
+  "main": "index.js"
 }
