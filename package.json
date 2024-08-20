@@ -1,6 +1,15 @@
 {
   "name": "flareswap-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "description": "Core smart contracts of FlareSwap",
+  "keywords": ["flareswap", "core"],
+  "author": "FlareSwap",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flare-swap/flareswap-core.git"
+  },
+  "homepage": "https://github.com/flare-swap/flareswap-core#readme",
   "dependencies": {
     "@nomicfoundation/hardhat-verify": "^2.0.9",
     "dotenv": "^16.4.5"
