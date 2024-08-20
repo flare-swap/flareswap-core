@@ -1,8 +1,6 @@
 # FlareSwap Core
 
-In-depth documentation on FlareSwap is available at [docs.flareswap.finance](https://docs.flareswap.finance/).
-
-# Local Development
+## Local Development
 
 The following assumes the use of `node@>=10`.
 
