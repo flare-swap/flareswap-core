@@ -29,6 +29,9 @@ export default {
   etherscan: {
     apiKey: {
       coston: "no-api-key-required",
+      coston2: "no-api-key-required",
+      songbird: "no-api-key-required",
+      flare: "no-api-key-required",
     },
     customChains: [
       {

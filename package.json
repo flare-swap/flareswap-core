@@ -45,13 +45,9 @@
     "compile": "hardhat compile",
     "test": "hardhat test",
     "coston:deploy": "npx hardhat run scripts/deploy.js --network coston",
-    "coston:verify": "npx hardhat run scripts/verify.js --network coston",
     "coston2:deploy": "npx hardhat run scripts/deploy.js --network coston2",
-    "coston2:verify": "npx hardhat run scripts/verify.js --network coston2",
     "songbird:deploy": "npx hardhat run scripts/deploy.js --network songbird",
-    "songbird:verify": "npx hardhat run scripts/verify.js --network songbird",
-    "flare:deploy": "npx hardhat run scripts/deploy.js --network flare",
-    "flare:verify": "npx hardhat run scripts/verify.js --network flare"
+    "flare:deploy": "npx hardhat run scripts/deploy.js --network flare"
   },
   "bugs": {
     "url": "https://github.com/flare-swap/flareswap-core/issues"
